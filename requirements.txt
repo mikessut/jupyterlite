@@ -28,7 +28,8 @@ jupyterlab-tour
 # JupyterLab: dark theme
 jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
-jupyterlab_miami_nights
+# jupyterlab_miami_nights
+jupyterlab-filesystem-access
 
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.0.0,<9

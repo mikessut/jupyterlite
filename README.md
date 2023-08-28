@@ -21,6 +21,19 @@ JupyterLite is being tested against modern web browsers:
 
 Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
 
+## Running locally (to check changes before deploying)
+
+Instructions from here:
+`https://jupyterlite.readthedocs.io/en/latest/howto/configure/simple_extensions.html`
+
+`python -m venv .`
+`scripts\activate`
+`python -m pip install -r requirements.txt`
+`jupyter lite build --contents content`
+
+`jupyter lite serve`
+
+
 ## Further Information and Updates
 
 For more info, keep an eye on the JupyterLite documentation:
