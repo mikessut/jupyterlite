@@ -26,12 +26,14 @@ Check out the guide on the JupyterLite documentation: https://jupyterlite.readth
 Instructions from here:
 `https://jupyterlite.readthedocs.io/en/latest/howto/configure/simple_extensions.html`
 
-`python -m venv .`
-`scripts\activate`
-`python -m pip install -r requirements.txt`
-`jupyter lite build --contents content`
+```
+python -m venv .
+scripts\activate
+python -m pip install -r requirements.txt
+jupyter lite build --contents content
 
-`jupyter lite serve`
+jupyter lite serve
+```
 
 
 ## Further Information and Updates
